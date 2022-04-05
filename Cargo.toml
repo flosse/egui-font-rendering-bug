@@ -1,0 +1,9 @@
+[package]
+name = "egui-font-rendering-bug"
+version = "0.0.0"
+edition = "2021"
+publish = false
+
+[dependencies.eframe]
+git = "https://github.com/emilk/egui"
+branch = "master"
