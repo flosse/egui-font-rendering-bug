@@ -6,4 +6,4 @@ publish = false
 
 [dependencies.eframe]
 git = "https://github.com/emilk/egui"
-branch = "master"
+rev = "d3c002a4e5ee9f1aacf9e0ddd9c97e74dd4c95a3"

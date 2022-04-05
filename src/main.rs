@@ -15,7 +15,7 @@ fn main() {
 struct MyApp;
 
 impl eframe::App for MyApp {
-    fn update(&mut self, ctx: &egui::Context, frame: &mut eframe::Frame) {
+    fn update(&mut self, ctx: &egui::Context, frame: &eframe::Frame) {
         egui::CentralPanel::default().show(ctx, |ui| {
             ui.colored_label(egui::Rgba::from_gray(1.0), "white");
             ui.colored_label(egui::Rgba::from_gray(0.5), "gray");
